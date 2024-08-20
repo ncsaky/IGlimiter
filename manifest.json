@@ -7,14 +7,6 @@
     "background": {
       "service_worker": "background.js"
     },
-    "action": {
-      "default_popup": "html/popup.html",
-      "default_icon": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
-      }
-    },
     "content_scripts": [
       {
         "matches": ["*://www.instagram.com/*"],
